@@ -19,6 +19,6 @@ jobs:
       - name: stop preview
         run: |
           cat preview.docker-compose.yaml | envsubst > docker-compose.yaml
-          docker-compose stop
+          docker compose stop
         env:
           COMMIT_REF_NAME: ${{ github.head_ref }}
