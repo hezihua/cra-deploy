@@ -3,7 +3,7 @@ FROM node:14-alpine as builder
 ARG ACCESS_KEY_ID
 ARG ACCESS_KEY_SECRET
 ARG ENDPOINT
-ENV PUBLIC_URL https://shanyue-cra.oss-cn-beijing.aliyuncs.com/
+ENV PUBLIC_URL https://deploy-hzh.oss-cn-shenzhen.aliyuncs.com
 
 WORKDIR /code
 
